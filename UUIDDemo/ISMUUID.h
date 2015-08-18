@@ -10,6 +10,13 @@
 
 @interface ISMUUID : NSObject
 
+//唯一标识  uuid
 +(NSString *)getUUID;
+
+//当前设备号
++(NSString *)getCurrentDeviceModel;
+
+//当前系统版本号
++(NSString *)getSystemVersion;
 
 @end
